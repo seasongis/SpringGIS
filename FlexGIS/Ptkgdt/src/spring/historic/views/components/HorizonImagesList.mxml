@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:List xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   horizontalCenter="0" verticalCenter="0"
+			   skinClass="gp.skins.ListImageSkin">
+	
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:dataProvider>
+						<s:ArrayList>
+							<s:BitmapImage source="@Embed('assets/images/image1.jpg')" />
+							<s:BitmapImage source="@Embed('assets/images/image2.jpg')" />
+
+						</s:ArrayList>
+					</s:dataProvider>
+	
+</s:List>

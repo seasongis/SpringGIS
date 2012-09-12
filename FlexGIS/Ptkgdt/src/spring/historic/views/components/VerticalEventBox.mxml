@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:SkinnableContainer  xmlns:fx="http://ns.adobe.com/mxml/2009" 
+               xmlns:s="library://ns.adobe.com/flex/spark" 
+               xmlns:mx="library://ns.adobe.com/flex/halo"
+			   skinClass="gp.views.skins.SmokedGlassSkin">
+	<s:layout>
+		<s:VerticalLayout />
+	</s:layout>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:Rect top="5" bottom="5" left="5" right="5"  >
+			<s:fill>
+				<s:SolidColor color="0x222222"/>
+			</s:fill>
+			<s:stroke>
+				<s:SolidColorStroke color="0x444444" weight="2"/>
+			</s:stroke>
+		</s:Rect>
+	<s:Button label="hello" />
+	<s:Button label="goodbuy" />
+	<s:Image source="@Embed(source='assets/images/image1.jpg')" width="100" height="100" />
+</s:SkinnableContainer >
